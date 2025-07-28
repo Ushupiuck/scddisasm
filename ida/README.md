@@ -1,0 +1,1 @@
+This is a set of scripts for IDA that automatically disassembles stage MMD files (Rxxx__.MMD). Note that it only works with the European version, since the hacking info on the Sonic Retro wiki came from that.
