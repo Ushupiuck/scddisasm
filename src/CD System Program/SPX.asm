@@ -4,14 +4,14 @@
 ; System program extension
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sub CPU.i"
-	include	"_Include/System.i"
-	include	"_Include/Backup RAM.i"
-	include	"_Include/Sound.i"
-	include	"Sound Drivers/PCM/_Variables.i"
-	include	"Special Stage/_Global Variables.i"
-	include	"DA Garden/Track Title Labels.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"_Include/System.inc"
+	include	"_Include/Backup RAM.inc"
+	include	"_Include/Sound.inc"
+	include	"Sound Drivers/PCM/_Variables.inc"
+	include	"Special Stage/_Global Variables.inc"
+	include	"DA Garden/Track Title Labels.inc"
 
 ; -------------------------------------------------------------------------
 ; Files

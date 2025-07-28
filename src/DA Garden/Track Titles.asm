@@ -4,8 +4,8 @@
 ; DA Garden track titles
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
 
 ; -------------------------------------------------------------------------
 

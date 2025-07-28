@@ -4,10 +4,10 @@
 ; System program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sub CPU.i"
-	include	"_Include/System.i"
-	include	"_Include/Backup RAM.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"_Include/System.inc"
+	include	"_Include/Backup RAM.inc"
 
 ; -------------------------------------------------------------------------
 ; Header

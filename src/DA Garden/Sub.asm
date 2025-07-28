@@ -4,10 +4,10 @@
 ; DA Garden Sub CPU program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sub CPU.i"
-	include	"_Include/Sound.i"
-	include	"DA Garden/_Common.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"_Include/Sound.inc"
+	include	"DA Garden/_Common.inc"
 	
 ; -------------------------------------------------------------------------
 ; Graphics operation parameters structure

@@ -1,5 +1,4 @@
 *.asm		text
-*.i		text linguist-language=Assembly
 *.inc		text linguist-language=Assembly
 *.lst		text
 *.txt		text

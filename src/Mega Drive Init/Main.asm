@@ -4,10 +4,10 @@
 ; Mega Drive initialization
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/Main CPU Variables.i"
-	include	"_Include/MMD.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/Main CPU Variables.inc"
+	include	"_Include/MMD.inc"
 
 ; -------------------------------------------------------------------------
 ; MMD header

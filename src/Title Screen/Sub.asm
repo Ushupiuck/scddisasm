@@ -4,9 +4,9 @@
 ; Title screen Sub CPU program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sub CPU.i"
-	include	"Title Screen/_Common.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"Title Screen/_Common.inc"
 
 ; -------------------------------------------------------------------------
 ; Graphics operation variable structure

@@ -4,14 +4,14 @@
 ; Special stage Main CPU program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/Main CPU Variables.i"
-	include	"_Include/Sound.i"
-	include	"_Include/MMD.i"
-	include	"Special Stage/_Common.i"
-	include	"Special Stage/_Global Variables.i"
-	include	"Special Stage/Stage Data Labels.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/Main CPU Variables.inc"
+	include	"_Include/Sound.inc"
+	include	"_Include/MMD.inc"
+	include	"Special Stage/_Common.inc"
+	include	"Special Stage/_Global Variables.inc"
+	include	"Special Stage/Stage Data Labels.inc"
 
 ; -------------------------------------------------------------------------
 ; Image buffer VRAM constants

@@ -4,9 +4,9 @@
 ; Sub CPU opening FMV handler
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sub CPU.i"
-	include	"_Include/System.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"_Include/System.inc"
 
 ; -------------------------------------------------------------------------
 ; Program start

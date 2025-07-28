@@ -4,11 +4,11 @@
 ; Special stage Sub CPU program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sound.i"
-	include	"_Include/Sub CPU.i"
-	include	"Special Stage/_Common.i"
-	include	"Special Stage/_Global Variables.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sound.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"Special Stage/_Common.inc"
+	include	"Special Stage/_Global Variables.inc"
 	
 ; -------------------------------------------------------------------------
 ; Object variables structure

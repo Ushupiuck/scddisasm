@@ -4,8 +4,8 @@
 ; Sound definitions
 ; -------------------------------------------------------------------------
 
-	include	"Sound Drivers/FM/_Sound IDs.i"
-	include	"Sound Drivers/PCM/_Sound IDs.i"
+	include	"Sound Drivers/FM/_Sound IDs.inc"
+	include	"Sound Drivers/PCM/_Sound IDs.inc"
 	
 ; -------------------------------------------------------------------------
 ; Addresses

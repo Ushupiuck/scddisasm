@@ -4,10 +4,10 @@
 ; Initial program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/System.i"
-	include	"_Include/MMD.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/System.inc"
+	include	"_Include/MMD.inc"
 
 ; -------------------------------------------------------------------------
 ; Security block

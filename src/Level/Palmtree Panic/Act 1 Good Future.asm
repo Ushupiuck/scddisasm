@@ -4,7 +4,7 @@
 ; Palmtree Panic Act 1 Good Future
 ; -------------------------------------------------------------------------
 
-	include	"Level/_Definitions.i"
+	include	"Level/_Definitions.inc"
 
 ; -------------------------------------------------------------------------
 

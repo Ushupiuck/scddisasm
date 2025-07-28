@@ -4,11 +4,11 @@
 ; Sound test easter egg
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/Main CPU Variables.i"
-	include	"_Include/MMD.i"
-	include	"Title Screen/Secrets/_Variables.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/Main CPU Variables.inc"
+	include	"_Include/MMD.inc"
+	include	"Title Screen/Secrets/_Variables.inc"
 
 ; -------------------------------------------------------------------------
 ; MMD header

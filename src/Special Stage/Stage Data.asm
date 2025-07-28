@@ -4,10 +4,10 @@
 ; Special stage data
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/Main CPU Variables.i"
-	include	"Special Stage/_Global Variables.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/Main CPU Variables.inc"
+	include	"Special Stage/_Global Variables.inc"
 
 ; -------------------------------------------------------------------------
 

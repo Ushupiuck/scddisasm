@@ -7,14 +7,14 @@
 	CPU	68000
 	listing	purecode
 	
-	include	"Sound Drivers/FM/_Compatibility.i"
-	include	"Sound Drivers/FM/_Sound IDs.i"
-	include	"_smps2asm_inc.i"
+	include	"Sound Drivers/FM/_Compatibility.inc"
+	include	"Sound Drivers/FM/_Sound IDs.inc"
+	include	"_smps2asm_inc.inc"
 
 	CPU	Z80UNDOC
 	dephase
-	include	"_Include/Z80.i"
-	include	"Sound Drivers/FM/_Variables.i"
+	include	"_Include/Z80.inc"
+	include	"Sound Drivers/FM/_Variables.inc"
 
 ; -------------------------------------------------------------------------
 ; Driver entry point

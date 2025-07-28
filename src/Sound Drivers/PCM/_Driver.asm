@@ -4,9 +4,9 @@
 ; SMPS-PCM driver
 ; -------------------------------------------------------------------------
 
-	include	"Sound Drivers/PCM/_Variables.i"
-	include	"Sound Drivers/PCM/_Macros.i"
-	include	"Sound Drivers/PCM/_smps2asm_inc.i"
+	include	"Sound Drivers/PCM/_Variables.inc"
+	include	"Sound Drivers/PCM/_Macros.inc"
+	include	"Sound Drivers/PCM/_smps2asm_inc.inc"
 
 ; -------------------------------------------------------------------------
 ; Driver origin point

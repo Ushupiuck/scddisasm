@@ -5,12 +5,12 @@
 ; DA Garden Main CPU program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/Main CPU Variables.i"
-	include	"_Include/MMD.i"
-	include	"DA Garden/_Common.i"
-	include	"DA Garden/Track Title Labels.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/Main CPU Variables.inc"
+	include	"_Include/MMD.inc"
+	include	"DA Garden/_Common.inc"
+	include	"DA Garden/Track Title Labels.inc"
 
 ; -------------------------------------------------------------------------
 ; Image buffer VRAM constants

@@ -4,12 +4,12 @@
 ; Title screen Main CPU program
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Main CPU.i"
-	include	"_Include/Main CPU Variables.i"
-	include	"_Include/Sound.i"
-	include	"_Include/MMD.i"
-	include	"Title Screen/_Common.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Main CPU.inc"
+	include	"_Include/Main CPU Variables.inc"
+	include	"_Include/Sound.inc"
+	include	"_Include/MMD.inc"
+	include	"Title Screen/_Common.inc"
 
 ; -------------------------------------------------------------------------
 ; Image buffer VRAM constants

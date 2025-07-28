@@ -4,9 +4,9 @@
 ; SMPS-PCM driver (Wacky Workbench Zone)
 ; -------------------------------------------------------------------------
 
-	include	"_Include/Common.i"
-	include	"_Include/Sub CPU.i"
-	include	"_Include/Sound.i"
+	include	"_Include/Common.inc"
+	include	"_Include/Sub CPU.inc"
+	include	"_Include/Sound.inc"
 
 ; -------------------------------------------------------------------------
 ; Driver
