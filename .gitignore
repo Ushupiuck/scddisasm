@@ -30,6 +30,6 @@ _original/europe/*.id1
 _original/europe/*.nam
 _original/europe/*.til
 src/_SonLVL/dllcache
-src/Special Stage/Stage Data Labels.i
+src/Special Stage/Stage Data Labels.inc
 src/Special Stage/Stage Data.bin
-src/DA Garden/Track Title Labels.i
+src/DA Garden/Track Title Labels.inc

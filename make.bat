@@ -34,7 +34,7 @@ if exist "Sound Drivers\FM\_Driver.p" (
 )
 
 %ASM68K% "DA Garden\Track Titles.asm", "..\out\files\PLANET_D.BIN", "DA Garden\Track Titles.sym"
-..\bin\GetPsyQSyms.exe "DA Garden\Track Titles.sym" "DA Garden\Track Title Labels.inc"
+..\bin\dumpasmsym.exe -m asm "DA Garden\Track Titles.sym" -o "DA Garden\Track Title Labels.inc"
 if exist "DA Garden\Track Titles.sym" ( del "DA Garden\Track Titles.sym" > nul )
 %ASM68K% "DA Garden\Main.asm", "..\out\files\PLANET_M.MMD", , "DA Garden\Main.lst"
 %ASM68K% "DA Garden\Sub.asm", "..\out\files\PLANET_S.BIN", , "DA Garden\Sub.lst"
@@ -99,7 +99,7 @@ echo Making opening FMV STM...
 %ASM68K% /e DEMO=0 "Level\Wacky Workbench\Act 1 Present.asm", "..\out\files\R61A__.MMD", , "Level\Wacky Workbench\Act 1 Present.lst"
 
 %ASM68K% "Special Stage\Stage Data.asm", "Special Stage\Stage Data.bin", "Special Stage\Stage Data.sym"
-..\bin\GetPsyQSyms.exe "Special Stage\Stage Data.sym" "Special Stage\Stage Data Labels.inc"
+..\bin\dumpasmsym.exe -m asm "Special Stage\Stage Data.sym" -o "Special Stage\Stage Data Labels.inc"
 if exist "Special Stage\Stage Data.sym" ( del "Special Stage\Stage Data.sym" > nul )
 %ASM68K% "Special Stage\Main.asm", "..\out\files\SPMM__.MMD", , "Special Stage\Main.lst"
 %ASM68K% "Special Stage\Sub.asm", "..\out\files\SPSS__.BIN", , "Special Stage\Sub.lst"
