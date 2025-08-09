@@ -18,7 +18,8 @@ ObjTamabboh:
 ; End of function ObjTamabboh
 
 ; -------------------------------------------------------------------------
-ObjTamabboh_Index:dc.w	ObjTamabboh_Init-ObjTamabboh_Index
+ObjTamabboh_Index:
+	dc.w	ObjTamabboh_Init-ObjTamabboh_Index
 	dc.w	ObjTamabboh_Position-ObjTamabboh_Index
 	dc.w	ObjTamabboh_Main-ObjTamabboh_Index
 	dc.w	ObjTamabboh_Wait1-ObjTamabboh_Index
@@ -219,7 +220,8 @@ ObjTamabbohMissile:
 ; End of function ObjTamabbohMissile
 
 ; -------------------------------------------------------------------------
-ObjTamabbohMissile_Index:dc.w	ObjTamabbohMissile_Init-ObjTamabbohMissile_Index
+ObjTamabbohMissile_Index:
+	dc.w	ObjTamabbohMissile_Init-ObjTamabbohMissile_Index
 	dc.w	ObjTamabbohMissile_Main-ObjTamabbohMissile_Index
 ; -------------------------------------------------------------------------
 
