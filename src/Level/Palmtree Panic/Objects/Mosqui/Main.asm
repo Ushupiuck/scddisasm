@@ -16,7 +16,8 @@ ObjMosqui:
 ; End of function ObjMosqui
 
 ; -------------------------------------------------------------------------
-ObjMosqui_Index:dc.w	ObjMosqui_Init-ObjMosqui_Index
+ObjMosqui_Index:
+	dc.w	ObjMosqui_Init-ObjMosqui_Index
 	dc.w	ObjMosqui_Main-ObjMosqui_Index
 	dc.w	ObjMosqui_Animate-ObjMosqui_Index
 	dc.w	ObjMosqui_Dive-ObjMosqui_Index
